@@ -1,0 +1,28 @@
+@use '../../utils' as *;
+
+
+.td-transparent-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.td-header-area{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.td-logo{
+    display: inline-block;
+}
+.td-main-menu{
+    & ul {
+        & li{
+            margin-right: 35px;
+            & a{
+                color: var(--td-heading-color);
+            }
+        }
+    }
+}
+

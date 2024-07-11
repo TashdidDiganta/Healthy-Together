@@ -1,0 +1,28 @@
+@use '../../utils' as *;
+
+
+
+
+
+.td-hero{
+    &-video{
+        & video{
+            width: 100%;
+        }
+    }
+
+    &-content{
+        top: 195px;
+        left: 0;
+        right: 0;
+    }
+
+    &-brands{
+        & img:not(:first-child){
+            margin-right: 25px;
+        }
+    }
+}
+
+
+

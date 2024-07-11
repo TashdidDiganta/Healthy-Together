@@ -1,0 +1,22 @@
+@use '../utils' as *;
+
+
+.td-btn{
+    &-1{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 10px 25px; 
+        border-radius: 50px;
+        background-color: var(--td-theme-color);
+    }
+
+    &-white{
+        color: var(--td-body-color);
+        background-color: var(--td-heading-color);
+    }
+    &-black{
+        color: var(--td-heading-color);
+        background-color: var(--td-body-color);
+    }
+}

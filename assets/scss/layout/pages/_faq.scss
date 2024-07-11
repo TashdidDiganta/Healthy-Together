@@ -1,0 +1,21 @@
+@use '../../utils' as *;
+
+.td-faq{
+    &-content{
+        border-radius: 50px;
+        padding: 100px 55px;
+        background-color: var(--td-theme-color);
+    }
+}
+
+
+.faq-img {
+    height: 747px;
+    position: absolute;
+    right: 113px;
+    top: -89px;
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+}

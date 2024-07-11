@@ -1,0 +1,1 @@
+sass --watch "C:\Users\Diganta\Desktop\frontend practis\healthy-together\assets\scss\main.scss":"C:\Users\Diganta\Desktop\frontend practis\healthy-together\assets\css\style.css"

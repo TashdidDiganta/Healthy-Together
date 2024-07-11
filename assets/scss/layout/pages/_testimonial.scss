@@ -1,0 +1,28 @@
+@use '../../utils' as *;
+
+
+.td-testimonial{
+    &-item{
+        padding: 55px 25px;
+        width: 470px;
+        & h2{
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 0;
+        }
+    }
+
+    &-brand-logo{
+        width: 40px;
+    }
+
+}
+
+.td-test-arrow {
+    padding: 7px 15px;
+    border-radius: 20px;
+    background-color: black;
+    & i{
+        color: #fff;
+    }
+}

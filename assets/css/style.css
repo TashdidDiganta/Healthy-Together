@@ -3961,6 +3961,7 @@ textarea {
 
 .td-review-appstore {
   padding: 50px 30px;
+  display: inline-block;
   border-radius: 50px 50px 50px 0px;
 }
 .td-review-appstore i {
@@ -3974,6 +3975,38 @@ textarea {
 }
 .td-review-appstore p {
   color: #fff;
+}
+
+img.heart-img {
+  top: 35px;
+  left: 43%;
+  position: absolute;
+}
+
+.card-1 {
+  left: 10%;
+  position: absolute;
+}
+
+.card-2 {
+  right: 10%;
+  position: absolute;
+}
+
+.card-3 {
+  left: 10%;
+  margin-top: 290px;
+  position: absolute;
+}
+
+.card-4 {
+  right: 10%;
+  margin-top: 360px;
+  position: absolute;
+}
+
+.td-review-wrapper {
+  margin-bottom: 665px;
 }
 
 .td-review-paragraph p {
@@ -3991,6 +4024,10 @@ textarea {
   border-radius: 0px 40px 40px 40px;
 }
 
+.td-vision-area {
+  padding-bottom: 1000px;
+}
+
 .td-people-area {
   padding-bottom: 550px;
 }
@@ -4000,6 +4037,10 @@ textarea {
   max-width: 530px;
 }
 
+.td-vision-video {
+  position: absolute;
+  z-index: 2;
+}
 .td-featured-img img {
   width: 100%;
   height: 100%;
@@ -4052,8 +4093,8 @@ textarea {
 
 .td-benefits-area {
   height: 90vh;
+  margin: 0 auto;
   position: relative;
-  border-radius: 50px;
   background-color: var(--td-theme-color);
 }
 .td-benefits-area video {

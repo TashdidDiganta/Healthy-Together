@@ -27,8 +27,9 @@
 .td-benefits{
     &-area{
         height: 90vh;
+        margin: 0 auto;
         position: relative;
-        border-radius: 50px;
+        // border-radius: 50px;
         background-color: var(--td-theme-color);
         & video{
             width: 50%;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exdos || Home-1</title>
+    <title>Helthy Together || Home-1</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
@@ -37,8 +37,9 @@
         </div>
     </header> 
     <!--===== Header Area End =====-->
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
     <main>
-
         <!--===== Hero Area Start =====-->
         <section class="td-hero-area td-black-bg pt-65 pb-180">
             <div class="td-hero-container p-relative">
@@ -67,8 +68,6 @@
         </section>
         <!--===== Hero Area End =====-->
 
-
-
         <!--===== Benefits Area End =====-->
         <div class="td-benefits-area">
             <div class="container">
@@ -92,13 +91,19 @@
         <!--===== Benefits Area End =====-->
 
         <!--===== Vision Area Start =====-->
-        <section class="td-vision-area pt-130">
-            <div class="td-benefits-title-wrapper text-center pb-180">
-                <h2 class="td-hero-title title-black">We <span>imagine</span> a <br> better way.</h2>
+        <section class="td-vision-area pt-130 p-relative">
+            <div class="td-vision-video">
+                <video autoplay muted playsinline>
+                    <source src="assets/video/homepage-devices-01-part-2_VP9.webm" type="video/webm">
+                </video>
+            </div>
+            <div class="td-benefits-title-wrapper text-center  pb-180">
+                <h2 class="td-hero-title title-black">We imagine a <br> better way.</h2>
                 <div class="td-hero-btn pt-25">
                     <button class="td-btn-1">Learn More About Our Vision</button>
                 </div>
             </div>
+       
             <div class="td-vision-content pt-100">
                 <div class="td-content-title-wrapper text-center pt-20">
                     <span>Our Vision</span>
@@ -243,34 +248,30 @@
         <!--===== Feature-2 Area End =====-->
 
         <!--===== Review Area Start =====-->
-        <div class="td-review-area pt-130 pb-100">
-            <div class="container">
-                <div class="td-title-wrapper text-center">
-                    <h2 class="td-hero-title text-black">People love us and <br> it shows.</h2>
+        <div class="td-review-area pt-130 ">
+            <div class="td-title-wrapper text-center">
+                <h2 class="td-hero-title text-black">People love us and <br> it shows.</h2>
+            </div>
+            <div class="td-review-wrapper p-relative">
+                <div class="td-review-appstore card-1" style="background-color: #4541fe;">
+                    <i class="fas fa-thumbs-up"></i>
+                    <h2>220k+</h2>
+                    <p>app store reviews*</p>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-xl-8 d-flex justify-content-between flex-wrap">
-                        <div class="td-review-appstore" style="background-color: #4541fe;">
-                            <i class="fas fa-thumbs-up"></i>
-                            <h2>220k+</h2>
-                            <p>app store reviews*</p>
-                        </div>
-                        <img src="assets/img/home01/people/ad_heart-remap.svg" alt="">
-                        <div class="td-review-appstore" style="background-color: #fff;">
-                            <h2 class="text-black">50%</h2>
-                            <p class="text-black">of households in the <br> State of Florida utilize <br> Healthy Together.</p>
-                            <img src="assets/img/home01/people/helthy.svg" alt="">
-                        </div>
-                        <div class="td-review-appstore br-right-1 mt-30" style="background-color: #d9c6fe;">
-                            <img src="assets/img/home01/people/star.svg" alt="">
-                            <h2 class="text-black">4.9/5</h2>
-                            <p>star rating*</p>
-                        </div>
-                        <div class="td-review-appstore td-review-paragraph br-right-2 mt-30" style="background-color: #101622;">
-                            <p>“After manually screening the <br> campus population during the first <br> wave of the pandemic, bringing in <br> this app made my life better! It was <br> impossible to keep up with the case <br> load in a timely manner.”</p>
-                            <img src="assets/img/home01/people/logo.svg" alt="">
-                        </div>
-                    </div>
+                <img class="heart-img"  src="assets/img/home01/people/ad_heart-remap.svg" alt="">
+                <div class="td-review-appstore card-2" style="background-color: #fff;">
+                    <h2 class="text-black">50%</h2>
+                    <p class="text-black">of households in the <br> State of Florida utilize <br> Healthy Together.</p>
+                    <img src="assets/img/home01/people/helthy.svg" alt="">
+                </div>
+                <div class="td-review-appstore card-3 br-right-1 mt-30" style="background-color: #d9c6fe;">
+                    <img src="assets/img/home01/people/star.svg" alt="">
+                    <h2 class="text-black">4.9/5</h2>
+                    <p>star rating*</p>
+                </div>
+                <div class="td-review-appstore card-4 td-review-paragraph br-right-2 mt-30" style="background-color: #101622;">
+                    <p>“After manually screening the <br> campus population during the first <br> wave of the pandemic, bringing in <br> this app made my life better! It was <br> impossible to keep up with the case <br> load in a timely manner.”</p>
+                    <img src="assets/img/home01/people/logo.svg" alt="">
                 </div>
             </div>
         </div>
@@ -481,6 +482,8 @@
         </div>
     </footer>
     <!--===== Footer Area End =====-->
+</div>
+</div>
 
 
 
@@ -490,6 +493,11 @@
     <script src="assets/js/isotope.pkgd.min.js"></script>
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/gsap-scroll-smoother.js"></script>
+    <script src="assets/js/gsap-scroll-trigger.js"></script>
+    <script src="assets/js/gsap-split-text.js"></script>
+    <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/js/imageloaded.js"></script>
     <script src="assets/js/main.js"></script>
 </body>

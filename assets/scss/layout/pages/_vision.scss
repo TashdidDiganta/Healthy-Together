@@ -1,10 +1,26 @@
 @use '../../utils' as *;
 
 
+.td-vision-area{
+    padding-bottom: 1000px;
+}
+
 .td-people-area{
     padding-bottom: 550px;
 }
 .td-people-text-wrapper{
     margin-right: 250px;
     max-width: 530px;
+}
+
+
+
+
+.td-vision-video{
+    position: absolute;
+    z-index: 2;
+    // transform: rotateY(-40deg);
+    & video{
+        // width: 90%;
+    }
 }
